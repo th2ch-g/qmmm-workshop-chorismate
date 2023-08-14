@@ -13,7 +13,7 @@ cd work
 
 2. prepare initial structure using tleap
 ```
-tleap -f script/tleap.in
+tleap -f tleap.in
 ```
 
 3. run md simulation (classical)
