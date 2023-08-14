@@ -1,0 +1,10 @@
+source leaprc.protein.ff19SB
+source leaprc.gaff2
+loadamberprep CHO.prepc
+loadamberparams CHO.frcmod
+source leaprc.water.opc
+mol = loadpdb cm.pdb
+solvatebox mol OPCBOX 20
+saveamberparm mol cm.parm7 cm.rst7
+savepdb mol cm.tleap.pdb
+quit

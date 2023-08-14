@@ -1,0 +1,17 @@
+Minimization without QMMM
+&cntrl
+   imin=1,
+   maxcyc=5000,
+   ncyc=2500,
+   cut=9.0,
+   ntpr=100,
+   ntxo=2,
+   ntr=1,
+   nmropt=1,
+   watnam='WAT',
+   owtnm='O',
+/
+   &wt
+        type='END'
+/
+END

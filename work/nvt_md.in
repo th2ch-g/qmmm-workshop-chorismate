@@ -1,0 +1,31 @@
+300K constant temp MD
+&cntrl
+    imin=0,
+    irest=0,
+    ntx=1,
+    ntt=3,
+    gamma_ln=1.0,
+    tempi=300,
+    temp0=300,
+    cut=9.0,
+    nstlim=125000,
+    dt=0.001,
+    ntc=2,
+    ntf=2,
+    ntpr=1000,
+    ntwx=5000,
+    ntwr=10000,
+    ntxo=2,
+    ioutfm=1,
+!    iwrap=0,
+    iwrap=1,
+    ntr=1,
+    nmropt=1,
+    watnam='WAT',
+    owtnm='O',
+/
+&wt
+    type='END'
+/
+END
+
